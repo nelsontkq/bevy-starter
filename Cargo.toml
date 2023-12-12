@@ -1,0 +1,9 @@
+[package]
+name = "bevy-starter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy =  { version = "0.12", features = ["dynamic_linking"] }
+# use to show render graph
+# bevy_mod_debugdump =  "0.9"
