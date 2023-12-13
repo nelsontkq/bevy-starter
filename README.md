@@ -1,6 +1,6 @@
 # Bevy Starter
 
-This template is designed to provide a pre-configured environment for developing games using [Bevy](https://bevyengine.org/), a data-driven game engine built in Rust. This project includes all the recommended optimizations shown in the [Official Bevy Docs](https://bevyengine.org/learn/book/introduction/) and [Bevy Cheatbook](https://bevy-cheatbook.github.io/setup.html).
+This skeleton template is a pre-configured environment for developing games using [Bevy](https://bevyengine.org/), a data-driven game engine built in Rust. This project includes all the recommended optimizations shown in the [Official Bevy Docs](https://bevyengine.org/learn/book/introduction/) and [Bevy Cheatbook](https://bevy-cheatbook.github.io/setup.html).
 
 
 # Building for release
