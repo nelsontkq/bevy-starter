@@ -1,5 +1,5 @@
 #!/bin/env bash
-# sudo apt-get install -y mold clang
+sudo apt-get install -y mold clang
 
 cat > ./.vscode/settings.json << EOF
 {
