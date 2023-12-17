@@ -29,10 +29,10 @@ cat > ./.vscode/launch.json << EOF
                 }
             },
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "cwd": "\${workspaceFolder}",
             "env": {
-                "CARGO_MANIFEST_DIR": "${workspaceFolder}",
-                "LD_LIBRARY_PATH": "${workspaceFolder}/target/debug/deps:${env:HOME}/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib"
+                "CARGO_MANIFEST_DIR": "\${workspaceFolder}",
+                "LD_LIBRARY_PATH": "\${workspaceFolder}/target/debug/deps:\${env:HOME}/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib"
             }
         }
     ]
